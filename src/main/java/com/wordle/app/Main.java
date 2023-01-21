@@ -3,7 +3,7 @@ package com.wordle.app;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Wordle in Java
  *
  */
 public class Main 
@@ -39,7 +39,7 @@ public class Main
         StringBuilder sb = new StringBuilder();
 
         if (input.length()!=5){
-            System.out.println("Debes ingresar una palabra de 5 letras.");
+            sb.append("Debes ingresar una palabra de 5 letras.");
             return sb.toString();
         }
 
