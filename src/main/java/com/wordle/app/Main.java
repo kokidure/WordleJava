@@ -15,11 +15,11 @@ public class Main
 
         System.out.println("WORDLE: adivina la palabra de 5 letras.");
         System.out.println("Tenes 5 intentos.");
+        String target = "avion";
 
         while (retries > 0) {
 
             String input = sc.nextLine();
-            String target = "avion";
 
             System.out.println(checkString(input, target));    
 
