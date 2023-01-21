@@ -47,14 +47,14 @@ public class Main
             String currentChar = String.valueOf(c);
             if (target.contains(currentChar)) {
                 if (input.indexOf(currentChar) == target.indexOf(currentChar)) {
-                    sb.append("{" + c + "}");
+                    sb.append("{").append(currentChar).append("}");
                 }
                 else {
-                    sb.append("(" + c + ")");
+                    sb.append("(").append(currentChar).append(")");
                 }
             }
             else {
-                sb.append(c);
+                sb.append(currentChar);
             }
 
         }
