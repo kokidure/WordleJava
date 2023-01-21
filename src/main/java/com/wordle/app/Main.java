@@ -32,6 +32,9 @@ public class Main
             System.out.println("Te quedan " + retries + " intentos.");
         }
 
+        if (retries == 0)
+            System.out.println("PERDISTE. Te quedaste sin intentos.");
+
         sc.close();
     }
 
